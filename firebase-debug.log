@@ -1,0 +1,37 @@
+[debug] [2023-07-19T22:44:12.001Z] ----------------------------------------------------------------------
+[debug] [2023-07-19T22:44:12.004Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ALMASDAR\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2023-07-19T22:44:12.005Z] CLI Version:   12.4.5
+[debug] [2023-07-19T22:44:12.005Z] Platform:      win32
+[debug] [2023-07-19T22:44:12.005Z] Node Version:  v18.16.0
+[debug] [2023-07-19T22:44:12.006Z] Time:          Thu Jul 20 2023 01:44:12 GMT+0300 (Arabian Standard Time)
+[debug] [2023-07-19T22:44:12.007Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-19T22:44:12.169Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-19T22:44:12.170Z] > authorizing via signed-in user (o.a.s775561590@gmail.com)
+[debug] [2023-07-19T22:44:12.170Z] [iam] checking project fir-demo-project for permissions ["firebase.projects.get"]
+[debug] [2023-07-19T22:44:12.174Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-demo-project:testIamPermissions [none]
+[debug] [2023-07-19T22:44:12.175Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-demo-project:testIamPermissions x-goog-quota-user=projects/fir-demo-project
+[debug] [2023-07-19T22:44:12.176Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-demo-project:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-07-19T22:44:13.815Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-demo-project:testIamPermissions 200
+[debug] [2023-07-19T22:44:13.816Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-demo-project:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-07-19T22:44:13.819Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-demo-project [none]
+[debug] [2023-07-19T22:44:14.627Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-demo-project 200
+[debug] [2023-07-19T22:44:14.627Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-demo-project {"projectId":"fir-demo-project","projectNumber":"300830567303","displayName":"Firebase Demo Project","name":"projects/fir-demo-project","resources":{"hostingSite":"fir-demo-project","realtimeDatabaseInstance":"fir-demo-project","storageBucket":"fir-demo-project.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_c54dac32-5d77-4513-963a-d831996183f5"}
+[info] 
+[info] === Serving from 'C:\xampp\htdocs\متقدم\عمليات  قواعد البيانات2\عمليات  قوsعد البيانات\عمليات  قواعد البيانات'...
+[info] 
+[debug] [2023-07-19T22:44:14.634Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-demo-project/sites 
+[debug] [2023-07-19T22:44:16.776Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-demo-project/sites 200
+[debug] [2023-07-19T22:44:16.776Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-demo-project/sites {"sites":[{"name":"projects/fir-demo-project/sites/fir-demo-project","defaultUrl":"https://fir-demo-project.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-07-19T22:44:16.777Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-demo-project/webApps/-/config [none]
+[debug] [2023-07-19T22:44:17.900Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-demo-project/webApps/-/config 200
+[debug] [2023-07-19T22:44:17.901Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-demo-project/webApps/-/config {"projectId":"fir-demo-project","databaseURL":"https://fir-demo-project.firebaseio.com","storageBucket":"fir-demo-project.appspot.com","locationId":"us-central","apiKey":"AIzaSyDadhQvQJsezb0Jj8LkaA6NPHvZ6b3guuY","authDomain":"fir-demo-project.firebaseapp.com","messagingSenderId":"300830567303"}
+[debug] [2023-07-19T22:44:17.950Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-demo-project [none]
+[debug] [2023-07-19T22:44:18.832Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-demo-project 200
+[debug] [2023-07-19T22:44:18.832Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-demo-project {"projectId":"fir-demo-project","projectNumber":"300830567303","displayName":"Firebase Demo Project","name":"projects/fir-demo-project","resources":{"hostingSite":"fir-demo-project","realtimeDatabaseInstance":"fir-demo-project","storageBucket":"fir-demo-project.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_c54dac32-5d77-4513-963a-d831996183f5"}
+[info] i  hosting[fir-demo-project]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[fir-demo-project]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [19/Jul/2023:22:44:22 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [19/Jul/2023:22:44:22 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43\""}}
+[info] i  hosting: ::1 - - [19/Jul/2023:22:44:22 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [19/Jul/2023:22:44:22 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43\""}}
+[info] i  hosting: ::1 - - [19/Jul/2023:22:53:49 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [19/Jul/2023:22:53:49 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43\""}}
+[info] i  hosting: ::1 - - [19/Jul/2023:22:53:49 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [19/Jul/2023:22:53:49 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43\""}}

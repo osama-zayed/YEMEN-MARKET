@@ -1,0 +1,37 @@
+body {
+    direction: rtl;
+}
+.toggle-mode.active::before{
+    right: 36px;
+}
+.sidebar.close li a span {
+    right: 0;
+}
+.sidebar.close .toggle-mode::before {
+    right: 0;
+}
+.sidebar  .close-button{
+    right: 290px;
+}
+@media (max-width: 767px) {
+    .sidebar.close {
+        right: -280px;
+    }
+    .sidebar {
+        right: 0;
+    }
+    .sidebar-overlay {
+        right: 0;
+    }
+}
+.head .notification-list {
+    right: -286px;
+  }
+@media (max-width: 420px) {
+    .sidebar  .close-button{
+        right: 225px;
+    }
+    .head .notification-list {
+        right: -240px;
+      }
+  }
